@@ -1,24 +1,30 @@
-<div class="container">
-        <h1>Decentralized Crypto Wallet</h1>
-        <p>This is a sample decentralized crypto wallet project using Web3.js. It allows you to create new crypto accounts and send Etherium.</p>
-        <h2>Features</h2>
-        <ul>
-            <li>Create new crypto accounts</li>
-            <li>Send Etherium</li>
-        </ul>
-        <h2>Usage</h2>
-        <p>This project is CLI-based.</p>
-        <h3>Installation</h3>
-        <pre><code>git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-npm install</code></pre>
-        <h3>Configuration</h3>
-        <p>To connect your wallet with the blockchain, this project uses <a href="https://getblock.io/">GetBlock.io</a> API with the Ethereum protocol.</p>
-        <p>Make sure to configure your endpoint API provided by GetBlock.io in the project.</p>
-        <h3>Commands</h3>
-        <p>Run the following commands to start using the wallet:</p>
-        <pre><code>node app.js create-account
-node app.js send-ether</code></pre>
-        <h2>Contributing</h2>
-        <p>Contributions are welcome! Feel free to open issues and pull requests.</p>
-    </div>
+<h1>Decentralized Crypto Wallet</h1>
+    <p>This is a sample decentralized crypto wallet project using Web3.js. The project utilizes the Ethereum protocol and connects to the blockchain through GetBlock.io's endpoint API.</p>
+    
+<h2>Project Overview</h2>
+    <p>The wallet is command-line interface (CLI) based, allowing users to create new crypto accounts and send Ethereum. Below is a brief overview of key functionalities:</p>
+    <ul>
+        <li>Create new crypto accounts</li>
+        <li>Send Ethereum</li>
+    </ul>
+    
+<h2>Usage</h2>
+<p>Below is a sample code snippet demonstrating how to create a new Ethereum account and send Ethereum using this project:</p>
+<p>1. Create a new Ethereum account:</p>
+<ol>
+    <li>Generate a new Ethereum account using the provided method.</li>
+    <li>Retrieve the private key for the newly created account.</li>
+</ol>
+<p>2. Send Ethereum:</p>
+<ol>
+    <li>Create a signed transaction using the sender's account and the recipient's address.</li>
+    <li>Estimate the gas required for the transaction.</li>
+    <li>Send the signed transaction to the Ethereum network.</li>
+</ol>
+<p>Note: Ensure that you have the necessary dependencies installed and configured before running the code.</p>
+
+<h2>Dependencies</h2>
+    <ul>
+        <li>Web3.js</li>
+        <li>GetBlock.io</li>
+    </ul>
